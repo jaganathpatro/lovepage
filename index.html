@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>boboo-loves-gelha</title>
+    <meta name="description" content="A beautiful romantic website celebrating love, memories, and togetherness">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Our Love Story - A Romantic Journey">
+    <meta property="og:description" content="A beautiful romantic website celebrating love, memories, and togetherness">
+    <meta property="og:type" content="website">
+    
+    <style>
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: linear-gradient(to bottom, #ec4899, #8b5cf6);
+        border-radius: 4px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(to bottom, #db2777, #7c3aed);
+      }
+
+      /* Volume slider styling */
+      .volume-slider::-webkit-slider-thumb {
+        appearance: none;
+        height: 16px;
+        width: 16px;
+        border-radius: 50%;
+        background: linear-gradient(to right, #ec4899, #8b5cf6);
+        cursor: pointer;
+      }
+
+      .volume-slider::-moz-range-thumb {
+        height: 16px;
+        width: 16px;
+        border-radius: 50%;
+        background: linear-gradient(to right, #ec4899, #8b5cf6);
+        cursor: pointer;
+        border: none;
+      }
+
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+
+      /* Custom cursor for interactive elements */
+      .romantic-cursor {
+        cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='%23ec4899'%3E%3Cpath d='M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z'/%3E%3C/svg%3E"), auto;
+      }
+    </style>
+  </head>
+  <body class="romantic-cursor">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
